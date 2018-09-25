@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import CozyBedroomStory from './CozyBedroomStory';
 
 export default class CozyBedroomStory extends Component {
   LinkWrapper = ({text, href}) => (
