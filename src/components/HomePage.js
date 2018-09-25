@@ -27,23 +27,13 @@ export default class HomePage extends Component {
 
         <ContentWrapper>
           <iframe
-            src="https://open.spotify.com/embed/artist/3sWtaNsmsCx0TFaQkP8QAm"
-            width="100%"
-            height="380"
-            frameborder="0"
-            allowtransparency="true"
-            allow="encrypted-media"
-          ></iframe>
-        </ContentWrapper>
-
-        <ContentWrapper>
-          <iframe
             src="https://open.spotify.com/embed/album/2tkcttCqcy7CLqDUl32UzB"
             width="100%"
             height="380"
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
+            autoplay
           ></iframe>
         </ContentWrapper>
 
