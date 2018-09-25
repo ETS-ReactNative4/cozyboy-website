@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CozyBedroomStory from './CozyBedroomStory';
 
-export default class CozyLinks extends Component {
+export default class CozyBedroomStory extends Component {
   LinkWrapper = ({text, href}) => (
     <div className="linkWrapper">
       <a href={href} target="_blank">{text}</a>
@@ -34,7 +34,7 @@ export default class CozyLinks extends Component {
 
         <div className="subHeader">DIRECTIONS:</div>
         <small>
-          Hold your finger on one of the images below and press "Save Image".  Then post the image to your story with <span className="red">#abedroomstory</span> and write something that is meaningful to you; a story, a lesson.  tag <span className="red">@cozyboycries</span> and i'll share it to my story, or DM it to me and i'll post it anonymously to my story.
+          Hold your finger on one of the images below and press "Save Image".  Then post the image to your story with <span className="red">#abedroomstory</span> and write something that is meaningful to you; a story, a lesson.  tag <span className="red">@cozyboycries</span> and i'll share it to my story, or DM it to me and i'll post it anonymously to my story 💙
         </small>
 
         <small style={{paddingBottom: 10, textDecoration: 'underline'}}>
