@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import CozyLinks from './components/CozyLinks';
+import HomePage from './components/HomePage';
+
 import './App.css';
 
-class App extends Component {
+export default class App extends Component {
   render() {
+    const  {
+      ContentWrapper,
+    } = this;
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="appContainer">
+        <CozyLinks />
+        <HomePage />
+
+        <div className="cozyFooter">made by cøzybøy with 💙</div>
       </div>
     );
   }
 }
-
-export default App;
