@@ -17,6 +17,11 @@ export default class CozyLinks extends Component {
         <h1 style={{paddingBottom: 20}}>SOCIAL LINKS:</h1>
 
         <LinkWrapper
+          text="merch"
+          href="https://www.teespring.com/stores/cozyboy"
+        />
+
+        <LinkWrapper
           text="instagram"
           href="https://www.instagram.com/cozyboycries/"
         />
