@@ -15,7 +15,9 @@ export default class Epk extends Component {
 
         <div className="epkInfoSection">
           <h2>A BEDRØØM STØRY</h2>
-          <p></p>
+          <p>
+            a vulnerable musical project that wades through the various stages of a modern relationship in an unconventional way. in a lurid landscape fraught with one night stands, hook ups, polyamory, monogamy, parties, isolation, and late nights that turn to early mornings, cøzybøy details his bedroom story with real recorded conversations, foley sound effects, and poignant lyrics.
+          </p>
         </div>
 
         <div className="epkInfoSection">
@@ -55,7 +57,7 @@ export default class Epk extends Component {
           <img src="/cozy-epk-3.jpg" className="epkImage" />
           <img src="/cozy-epk-4.jpg" className="epkImage" />
           <img src="/cozy-170.jpg" className="epkImage" />
-          <img src="/cozy-197.jpg" className="epkImage" />
+          <img src="/cozy-epk-5.jpg" className="epkImage" />
         </div>
 
         <div className="epkInfoSection">
