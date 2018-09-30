@@ -14,6 +14,11 @@ export default class Epk extends Component {
         </div>
 
         <div className="epkInfoSection">
+          <h2>A BEDRØØM STØRY</h2>
+          <p></p>
+        </div>
+
+        <div className="epkInfoSection">
           <h2>SOCIAL LINKS</h2>
           <div className="epkSocialLinks">
             <a
@@ -45,8 +50,10 @@ export default class Epk extends Component {
 
         <div className="epkInfoSection">
           <h2>IMAGES</h2>
-          <img src="/cozy-183.jpg" className="epkImage" />
-          <img src="/cozy-128.jpg" className="epkImage" />
+          <img src="/cozy-epk-1.jpg" className="epkImage" />
+          <img src="/cozy-epk-2.jpg" className="epkImage" />
+          <img src="/cozy-epk-3.jpg" className="epkImage" />
+          <img src="/cozy-epk-4.jpg" className="epkImage" />
           <img src="/cozy-170.jpg" className="epkImage" />
           <img src="/cozy-197.jpg" className="epkImage" />
         </div>
