@@ -19,7 +19,7 @@ export default class App extends Component {
         <CozyLinks />
         <HomePage />
       </Fragment>
-    )
+    );
   }
 
   render() {
