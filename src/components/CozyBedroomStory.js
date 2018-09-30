@@ -10,11 +10,6 @@ export default class CozyBedroomStory extends Component {
   DividerLine = () => (<div className="dividerLine"></div>)
 
   render() {
-    const  {
-      LinkWrapper,
-      DividerLine,
-    } = this;
-
     return (
       <div className="cozyBedroomStoryComponent">
         <div
@@ -26,6 +21,7 @@ export default class CozyBedroomStory extends Component {
 
         <div style={{textAlign: 'center'}}>
           <img
+            alt="aBedroomStoryImg"
             className="profilePic"
             src="https://i.imgur.com/J5Hj9RY.jpg"
           />
@@ -40,6 +36,7 @@ export default class CozyBedroomStory extends Component {
           Instagram Story
         </small>
         <img
+          alt="Instagram Story"
           className="aBedroomStoryImg"
           src="https://i.imgur.com/opLINHO.jpg"
         />
@@ -50,6 +47,7 @@ export default class CozyBedroomStory extends Component {
           Instagram Post
         </small>
         <img
+          alt="Instagram Post"
           className="aBedroomStoryImg"
           src="https://i.imgur.com/csIZJsn.jpg"
         />
