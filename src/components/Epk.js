@@ -61,6 +61,24 @@ export default class Epk extends Component {
         </div>
 
         <div className="epkInfoSection">
+          <h2>PUBLICATIONS</h2>
+          <a
+            href="https://www.elevatormag.com/cozyboy-and-lil-zubin-connect-for-new-song-how-to-talk-to-girls-at-parties/"
+            target="_blank"
+          >ELEVATOR article 1</a>
+        </div>
+
+        <div className="epkInfoSection">
+          <h2>IMAGES</h2>
+          <img src="/cozy-epk-1.jpg" className="epkImage" />
+          <img src="/cozy-epk-2.jpg" className="epkImage" />
+          <img src="/cozy-epk-3.jpg" className="epkImage" />
+          <img src="/cozy-epk-4.jpg" className="epkImage" />
+          <img src="/cozy-170.jpg" className="epkImage" />
+          <img src="/cozy-epk-5.jpg" className="epkImage" />
+        </div>
+
+        <div className="epkInfoSection">
           <h2>DOWNLOADABLE ASSETS</h2>
           <a
             href="https://drive.google.com/drive/folders/1rUOR5pKXeFZ78nFIgh17Pzl8-t7-OTtv?usp=sharing"

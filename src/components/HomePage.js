@@ -15,11 +15,16 @@ export default class HomePage extends Component {
     return (
       <div className="homePageComponent">
         <ContentWrapper>
+          <h2 style={{textAlign: 'center'}}>ALBUM RELEASE SHOW</h2>
+          <img src="show-flier.jpg" className="showFlier" />
+        </ContentWrapper>
+
+        <ContentWrapper>
           <iframe
             title="youtubeVideo1"
             width="100%"
             height="315"
-            src="https://www.youtube.com/embed/_qLuKFpOL-o"
+            src="https://www.youtube.com/embed/Geepo6g2yyA"
             frameBorder="0"
             allow="autoplay; encrypted-media"
             allowFullScreen
@@ -29,7 +34,7 @@ export default class HomePage extends Component {
         <ContentWrapper>
           <iframe
             title="spotifyPlaylist1"
-            src="https://open.spotify.com/embed/album/2tkcttCqcy7CLqDUl32UzB"
+            src="https://open.spotify.com/embed/album/1CYbQYkBpw2tOoVjltVEJW"
             width="100%"
             height="380"
             frameBorder="0"
@@ -47,7 +52,7 @@ export default class HomePage extends Component {
             scrolling="no"
             frameBorder="no"
             allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/316780769&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/621761448&color=%23d9284c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
           ></iframe>
         </ContentWrapper>
       </div>
