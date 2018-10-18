@@ -33,6 +33,18 @@ export default class HomePage extends Component {
 
         <ContentWrapper>
           <iframe
+            title="youtubeVideo1"
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/HjmkY7PV53k"
+            frameBorder="0"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+          ></iframe>
+        </ContentWrapper>
+
+        <ContentWrapper>
+          <iframe
             title="spotifyPlaylist1"
             src="https://open.spotify.com/embed/album/1CYbQYkBpw2tOoVjltVEJW"
             width="100%"
