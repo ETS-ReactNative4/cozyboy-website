@@ -3,8 +3,15 @@ import React, { Component } from 'react';
 import './Epk.css';
 
 export default class Epk extends Component {
-  state = {
-    showStats: false,
+  constructor(props) {
+    super(props);
+
+    const search = props.location.search;
+
+    this.state = {
+      showStats: false,
+      isStats: search.includes('stats=true'),
+    }
   }
 
   showStats() {
@@ -35,6 +42,7 @@ export default class Epk extends Component {
   render() {
     const {
       showStats,
+      isStats,
     } = this.state;
 
     return (
@@ -140,13 +148,22 @@ export default class Epk extends Component {
           <a
             href="https://drive.google.com/drive/folders/1rUOR5pKXeFZ78nFIgh17Pzl8-t7-OTtv?usp=sharing"
             target="_blank"
-          >Google Drive Assets</a>
+          >
+            Google Drive Assets
+          </a>
         </div>
 
-        <div className="epkInfoSection">
-          <h2 className="clickableInfoSection" onClick={this.showStats.bind(this)}>{showStats ? 'HIDE' : 'SHOW'} STATS</h2>
-          {showStats ? this.stats() : null}
-        </div>
+        {isStats ?
+          <div className="epkInfoSection">
+            <h2 className="clickableInfoSection" onClick={this.showStats.bind(this)}>
+              {showStats ? 'HIDE' : 'SHOW'} STATS
+            </h2>
+            {showStats ? this.stats() : null}
+          </div>
+          :
+          null
+        }
+
       </div>
     )
   }
