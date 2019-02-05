@@ -25,3 +25,9 @@
 .epkInfoSection {
   padding-bottom: 40px;
 }
+
+.clickableInfoSection:hover {
+  text-decoration: underline;
+  color: #d9284c;
+  cursor: pointer;
+}

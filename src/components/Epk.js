@@ -3,7 +3,40 @@ import React, { Component } from 'react';
 import './Epk.css';
 
 export default class Epk extends Component {
+  state = {
+    showStats: false,
+  }
+
+  showStats() {
+    this.setState({showStats: !this.state.showStats})
+  }
+
+  stats() {
+    return (
+      <div>
+        <p style={{paddingTop: 16}}>Spotify Homepage</p>
+        <img src="/cozy-spotify-homepage.png" className="epkImage" style={{marginLeft: 0}} />
+        <p style={{paddingTop: 32}}>Spotify Listeners</p>
+        <img src="/cozy-spotify-listeners.png" className="epkImage" style={{marginLeft: 0}} />
+        <p style={{paddingTop: 32}}>Spotify Streams</p>
+        <img src="/cozy-spotify-streams.png" className="epkImage" style={{marginLeft: 0}} />
+        <p style={{paddingTop: 32}}>Spotify Followers</p>
+        <img src="/cozy-spotify-followers.png" className="epkImage" style={{marginLeft: 0}} />
+        <p style={{paddingTop: 32}}>Spotify Homepage</p>
+        <img src="/cozy-engagement-stats.png" className="epkImage" style={{marginLeft: 0}} />
+        <p style={{paddingTop: 32}}>Spotify Stats</p>
+        <object data="/spotify-for-artists-cozy-stats.pdf" type="application/pdf" width="100%" height="600">
+          <p>Alternative text - include a link <a href="/spotify-for-artists-cozy-stats.pdf">to the PDF!</a></p>
+        </object>
+      </div>
+    )
+  }
+
   render() {
+    const {
+      showStats,
+    } = this.state;
+
     return (
       <div className="epkComponent">
         <h1>CØZYBØY EPK</h1>
@@ -108,6 +141,11 @@ export default class Epk extends Component {
             href="https://drive.google.com/drive/folders/1rUOR5pKXeFZ78nFIgh17Pzl8-t7-OTtv?usp=sharing"
             target="_blank"
           >Google Drive Assets</a>
+        </div>
+
+        <div className="epkInfoSection">
+          <h2 className="clickableInfoSection" onClick={this.showStats.bind(this)}>{showStats ? 'HIDE' : 'SHOW'} STATS</h2>
+          {showStats ? this.stats() : null}
         </div>
       </div>
     )
