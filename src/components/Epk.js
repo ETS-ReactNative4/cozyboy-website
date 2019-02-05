@@ -9,13 +9,8 @@ export default class Epk extends Component {
     const search = props.location.search;
 
     this.state = {
-      showStats: false,
       isStats: search.includes('stats=true'),
     }
-  }
-
-  showStats() {
-    this.setState({showStats: !this.state.showStats})
   }
 
   stats() {
@@ -153,10 +148,10 @@ export default class Epk extends Component {
 
         {isStats ?
           <div className="epkInfoSection">
-            <h2 className="clickableInfoSection" onClick={this.showStats.bind(this)}>
-              {showStats ? 'HIDE' : 'SHOW'} STATS
+            <h2 className="clickableInfoSection">
+              SPOTIFY STATS
             </h2>
-            {showStats ? this.stats() : null}
+            {this.stats()}
           </div>
           :
           null
