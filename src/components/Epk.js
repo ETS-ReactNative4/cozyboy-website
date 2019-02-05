@@ -148,9 +148,7 @@ export default class Epk extends Component {
           <a
             href="https://drive.google.com/drive/folders/1rUOR5pKXeFZ78nFIgh17Pzl8-t7-OTtv?usp=sharing"
             target="_blank"
-          >
-            Google Drive Assets
-          </a>
+          >Google Drive Assets</a>
         </div>
 
         {isStats ?
