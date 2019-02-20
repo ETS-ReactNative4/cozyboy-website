@@ -136,7 +136,7 @@ export default class Epk extends Component {
             href="https://suicide.clothing/blogs/fml/cozyboy"
             target="_blank"
           >SUICIDE CLOTHING: cøzybøy FML interview</a>
-          <br/>
+          <br />
           <a
             href="https://undergroundunderdogs.com/articles/jay-vee-assembles-an-all-star-cast-for-bleed-for-no-reason/"
             target="_blank"
