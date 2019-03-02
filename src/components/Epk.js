@@ -46,21 +46,7 @@ export default class Epk extends Component {
 
         <div className="epkInfoSection">
           <h2>BIO</h2>
-          <p>making music for the heartbroken and dejected <span role="img" aria-label="sad-rose">🥀</span><span role="img" aria-label="blue-heart">💙</span></p>
-        </div>
-
-        <div className="epkInfoSection">
-          <h2>LATEST SINGLE: "breakup // breakdøwn"</h2>
-          <p>
-            a song about a breakup and what comes with it––guilt, loneliness, and second-guessing the decision.
-          </p>
-        </div>
-
-        <div className="epkInfoSection">
-          <h2>A BEDRØØM STØRY</h2>
-          <p>
-            a vulnerable musical project that wades through the various stages of a modern relationship in an unconventional way. in a lurid landscape fraught with one night stands, hook ups, polyamory, monogamy, parties, isolation, and late nights that turn to early mornings, cøzybøy details his bedroom story with real recorded conversations, foley sound effects, and poignant lyrics.
-          </p>
+          <p>cøzybøy is a singer, songwriter, producer, and multi-instrumentalist who began writing dark, visceral love songs after the end of a 2-year monogamous relationship.  his artistry is forged from melancholy, longing, late nights, nostalgia, emptiness, and various bouts with mental health.  cøzybøy's strong roots in indie, emo, rap, and lofi music greatly influences his unique take on r&b and he aims to explore and dissect topics that aren't widely touched on in the genre.  in a genre where many of the artists try to remain anonymous and ghostly, cøzybøy wears his heart on his sleeve and takes a more revealed (brash) approach, connecting with fans everyday through dm's, livestreams, and discord chats and titling his songs almost too honestly.  ever a lover of storytelling, he's currently focusing on shooting and editing his own music videos, planning his next project, and becoming a better songwriter.&nbsp;<span role="img" aria-label="sad-rose">🥀</span><span role="img" aria-label="blue-heart">💙</span></p>
         </div>
 
         <div className="epkInfoSection">
@@ -94,29 +80,7 @@ export default class Epk extends Component {
         </div>
 
         <div className="epkInfoSection">
-          <h2>IMAGES</h2>
-          <img src="/cozy-epk-6.jpg" className="epkImage" />
-          <img src="/cozy-epk-7.jpg" className="epkImage" />
-          <img src="/cozy-epk-2.jpg" className="epkImage" />
-          <img src="/cozy-epk-1.jpg" className="epkImage" />
-          <img src="/cozy-170.jpg" className="epkImage" />
-          <img src="/cozy-epk-5.jpg" className="epkImage" />
-          <img src="/cozy-epk-3.jpg" className="epkImage" />
-          <img src="/cozy-epk-4.jpg" className="epkImage" />
-          <img src="/cozy-all-our-bones.png" className="epkImage" />
-          <img src="/cozy-what-did-you-1.png" className="epkImage" />
-          <img src="/cozy-what-did-you-2.png" className="epkImage" />
-        </div>
-
-        <div className="epkInfoSection">
-          <h2>MUSIC VIDEOS</h2>
-          <iframe width="100%" height="400" src="https://www.youtube.com/embed/P30f0721ALo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="100%" height="400" src="https://www.youtube.com/embed/oDIo7OtODwo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="100%" height="400" src="https://www.youtube.com/embed/tOiMmBbYwSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-        <div className="epkInfoSection">
-          <h2>PUBLICATIONS</h2>
+          <h2>LINKS TO PRESS</h2>
           <a
             href="https://www.elevatormag.com/cozyboy-and-lil-zubin-connect-for-new-song-how-to-talk-to-girls-at-parties/"
             target="_blank"
@@ -141,6 +105,42 @@ export default class Epk extends Component {
             href="https://undergroundunderdogs.com/articles/jay-vee-assembles-an-all-star-cast-for-bleed-for-no-reason/"
             target="_blank"
           >UNDERGROUND UNDERDOGS: "Bleed for No Reason" song with Jay Vee</a>
+        </div>
+
+        <div className="epkInfoSection">
+          <h2>LATEST SINGLE: "yøu løøked sø beautiful that night (falling før yøu again)"</h2>
+          <p>a song about re-falling in love with someone</p>
+          <iframe src="https://open.spotify.com/embed/album/5mkt11QivQt77H3FhRaWTk" width="100%" height="160" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+
+        <div className="epkInfoSection">
+          <h2>A BEDRØØM STØRY</h2>
+          <p>
+            a vulnerable musical project that wades through the various stages of a modern relationship in an unconventional way. in a lurid landscape fraught with one night stands, hook ups, polyamory, monogamy, parties, isolation, and late nights that turn to early mornings, cøzybøy details his bedroom story with real recorded conversations, foley sound effects, and poignant lyrics.
+          </p>
+        </div>
+
+        <div className="epkInfoSection">
+          <h2>IMAGES</h2>
+          <img src="/cozy-epk-6.jpg" className="epkImage" />
+          <img src="/cozy-epk-7.jpg" className="epkImage" />
+          <img src="/cozy-epk-2.jpg" className="epkImage" />
+          <img src="/cozy-254.jpg" className="epkImage" />
+          {/* <img src="/cozy-epk-1.jpg" className="epkImage" />
+          <img src="/cozy-170.jpg" className="epkImage" />
+          <img src="/cozy-epk-5.jpg" className="epkImage" />
+          <img src="/cozy-epk-3.jpg" className="epkImage" />
+          <img src="/cozy-epk-4.jpg" className="epkImage" />
+          <img src="/cozy-all-our-bones.png" className="epkImage" />
+          <img src="/cozy-what-did-you-1.png" className="epkImage" />
+          <img src="/cozy-what-did-you-2.png" className="epkImage" /> */}
+        </div>
+
+        <div className="epkInfoSection">
+          <h2>MUSIC VIDEOS</h2>
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/P30f0721ALo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/oDIo7OtODwo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="400" src="https://www.youtube.com/embed/tOiMmBbYwSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
         </div>
 
         <div className="epkInfoSection">
